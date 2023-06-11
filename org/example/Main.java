@@ -38,7 +38,8 @@ public class Main {
                             break;
                         }
                     }
-
+                    System.out.println("Account not found!");
+                    break;
                 case 3:
                     System.out.println("Enter account number:");
                     acno = sc.next();
